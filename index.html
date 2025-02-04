@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceuil - Marlin</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/index.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo" >
+                <img src="img/logomarlin.jpg" alt="">
+                <h1><a href="index.html">Marlin</a></h1>
+            </div>
+
+            <ul class="nav">
+                <li><a href="http://www.facebook.com" target="_blank">Facebook</a></li>
+                <li><a href="#service">Mes services</a></li>
+                <li><a href="http://www.likedee.com" target="_blank">Linkedin</a></li>
+                <li><a href="mailto:gordonne@gmail.com">Me contacter</a></li>
+            </ul>
+            <div class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <div class="moi">
+        <div class="moi-image">
+            <img src="img/IMGroland.jpg" id="moi1" alt="">
+        </div>
+
+        <div class="text">
+            <h2>Bienvenue sur mon portofio</h2>
+            <p>Actuellement etudiant en Licence 3 ASRI a ESSIG, je suis passionne par la programation.
+                <br> je suis en perpetuel apprentissage </p>
+                <p>Télecharger mon CV</p>
+                <a href="img/CV de Guy Roland MOMBO NDINGA (1).pdf" download="woof" class="cta">Faites-le ici</a>
+
+            </div>
+        </div>
+        <div class="t0">
+            <img src="img/gestion-autonome-de-son-site-internet.jpg" alt="">
+            <div class="bd">
+                <h1>Vous retrouverez mes projets et réalisations</h1>
+            </div>
+        </div>
+
+        <!-- realisation -->
+        <div class="t2-all">
+            <p>Ici nous avons le projet Asterix qui consiste a la mise en place d'un serveur telephonique sur IP</p>
+            <div class="t2">
+                <div class="t3"><img src="img/sc1.png" alt=""></div>
+                <div class="t4"><img src="img/sc2.png" alt=""></div>
+                <div class="t5"><img src="img/sc3.png" alt=""></div>
+                <a href="#" class="link">Découvrir plus</a>
+            </div>
+        </div>
+        
+
+        <div class="service" id="service">
+            <h2>Mes services</h2>
+            <div class="liste">
+                <img src="img/pictogramme-devfront.svg">
+                <div >
+                    <div> Maintenance informatique</div>
+                    <div>Developpement de logiciels Desktop/mobile</div>
+                    <div>Developpement front-end</div>
+                    <div >Developpement back-end</div>
+                </div>
+            </div>
+        </div>
+    
+    
+    <div class="skills">
+        <h1>Mes compétences</h1>
+        <div class="items">
+            <div class="item">
+                <div>
+                    <img src="img/skills-social.jpg">
+                </div>
+                <h2>Social</h2>
+                <ul>
+                    <li>Dynamique</li>
+                    <li>Travail de groupe</li>
+                    <li>Ponctuel</li>
+                </ul>
+            </div>
+            <div class="item">
+                <div>
+                    <img src="img/skills-dev.jpg">
+                </div>
+                <h2>Programation</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Python</li>
+                </ul>
+            </div>
+            <div class="item">
+                <div>
+                    <img src="img/skills-autre.jpg">
+                </div>
+                <h2>Divers</h2>
+                <ul>
+                    <li>Word</li>
+                    <li>PowerPoint</li>
+                    <li>Canva</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="form-container">
+            <h2>Prenez rendez-vous</h2>
+
+            <form action="https://formspree.io/f/mzzdgokd" method="post">
+                <div class="form-group">
+                    <label for="name">Nom :</label>
+                    <input type="text" id="name" name="name" required autocomplete="none">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required autocomplete="none">  
+                </div>
+                <div class="form-group">
+                    <label for="date">Date du rendez-vous :</label>
+                    <input type="datetime-local" id="date" name="date" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Votre avis :</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Envoyer</button> 
+                <!-- <input type="submit" value="Envoyer"> -->
+            </form>
+        
+    </div>
+
+    <footer>
+        <div class="re">
+            <p>Contact</p>
+            <p>&copy Marlin dev. Tous droits réservés.</p>
+            <hr class="h">
+            <div class="fi">
+                <a href="http://telegram.com" target="_blank"><img src="img\telegram-black-icon.png" alt=""></a>
+                <a href="http://facebook.com" target="_blank" ><img src="img\icons8-facebook-50.png" alt=""></a>
+                <a href="http://whatsapp.com" target="_blank" ><img src="img\icons8-whatsapp-50.png" alt=""></a>
+                <a href="https://www.instagram.com/venom.780" target="_blank" ><img src="img\instagram-black.png" alt=""></a>
+            </div>
+        </div>
+    </footer>
+    <script src="JS/burger-animation.js"></script>
+    
+</body>
+</html>
